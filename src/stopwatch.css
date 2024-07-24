@@ -1,0 +1,53 @@
+.stopwatch {
+    text-align: center;
+    color:#2e1f9f;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .display {
+    margin: 20px 0;
+   
+  }
+  
+  .time {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .start {
+    background-color: black;
+    color: white;
+  }
+  
+  .stop {
+    background-color: black;
+    color: white;
+  }
+  
+  .reset {
+    background-color: black;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color:  #d0df8f;
+  }
